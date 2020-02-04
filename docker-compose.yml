@@ -3,7 +3,7 @@ services:
   crms:
     image: app:v13
     ports:
-      - "80:8080"
+      - 9090":8080"
     networks:
       frontend:
 networks:
